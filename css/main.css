@@ -1,0 +1,37 @@
+
+.container {
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    .hero {
+        display: inline-block;
+        width: 600px;
+        margin-left: calc((100% - 1000px) / 2);
+        background-color: aqua;
+    }
+    .row {
+        display: inline-block;
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2);
+    }
+        .left {
+            display: inline-block;
+            width: 50%;
+            float: left;
+        }
+        .right {
+            display: inline-block;
+            width: 40%;
+            float: right;
+        }
+        .socials {
+            display: inline-block;
+        }
+        .texts {
+            display: inline-block;
+        }
+    .bg-blue {
+        background-color: #03A9F5;
+    }
