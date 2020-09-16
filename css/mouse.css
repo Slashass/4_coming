@@ -1,12 +1,15 @@
 .mouse-icon {
     display: inline-block;
     position: relative;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 16px;
     height: 40px;
     width: 24px;
+    text-align: center;
+    margin-top: 20px;
 }
 .mouse-icon .wheel {
+    display: inline-block;
     position: relative;
     border-radius: 10px;
     background: black;
@@ -15,4 +18,5 @@
     top: 4px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }

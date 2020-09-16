@@ -8,6 +8,7 @@
     .hero {
         display: inline-block;
         width: 600px;
+        height: 44vh;
         margin-left: calc((100% - 600px) / 2);
         background-color: aqua;
         text-align: center;
@@ -64,12 +65,22 @@ footer {
     width: 100%;
     height: 50vh;
 }
-.footerText {
-}
-.footerLogo {
-    text-align: center;
-    padding: 20px;
-}
+    .footerText {
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+    }
+    .footerLogo {
+        text-align: center;
+        padding: 20px;
+    }
+    .copyRights {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .about {
+        display: inline-block;
+    }
 /* RWB media */ 
 
 @media (max-width: 1100px) {
