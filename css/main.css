@@ -1,5 +1,5 @@
 
-.container {
+.containe {
     display: inline-block;
     width: 100%;
     padding-top: 60px;
@@ -8,7 +8,7 @@
     .hero {
         display: inline-block;
         width: 600px;
-        margin-left: calc((100% - 1000px) / 2);
+        margin-left: calc((100% - 600px) / 2);
         background-color: aqua;
     }
     .row {
@@ -28,10 +28,50 @@
         }
         .socials {
             display: inline-block;
+            width: 100%;
+            border-bottom: 1px solid #ffffff;
         }
         .texts {
             display: inline-block;
+            width: 600px;
+            margin: calc((100% - 600px) / 2);
         }
     .bg-blue {
         background-color: #03A9F5;
     }
+    .hero-bg {
+        background-image: url(../img/hero-bg.jpg);
+        background-size: cover;
+        background-position: bottom center;
+        background-attachment: fixed;   
+    }
+/* RWB media */ 
+
+@media (max-width: 1100px) {
+    .row {
+        display: inline-block;
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
+    }
+}
+@media (max-width: 900px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .row {
+        display: inline-block;
+        width: 600px;
+        margin-left: calc((100% - 600px) / 2);
+    }
+    .left {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+        }
+    .right {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        }
+}

@@ -7,43 +7,83 @@
     
     <link rel="stylesheet" href="./css/reset.css">
 
-    <link rel="stylesheet" href="./css/clock.css">
-    <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/progressbar.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/mouse.css">
+    <link rel="stylesheet" href="..//css/clock.css">
+    <link rel="stylesheet" href="..//css/button.css">
+    <link rel="stylesheet" href="..//css/progressbar.css">
+    <link rel="stylesheet" href="..//css/form.css">
+    <link rel="stylesheet" href="..//css/mouse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="..//css/social.css">
 
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="..//css/main.css">
 
 </head>
 <body>
-    <div class="container bg-blue">
+    <div class="container hero-bg">
         <div class="hero">
-            HERO
+            <div class="logo">
+                <a href="#">
+                    <img src=".//img/small-logo.png" alt="LOGO">
+                </a>
+            </div>
+            <div class="Intro-text">
+                <h1 class="intro-title">Coming soon</h1>
+	            <p class="sub-intro lead">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
+            </div>
+            <div class="clock">
+                <!-- countdown -->
+                <div class="countdown">
+                    <li>                    
+                        <span class="days">00</span>
+                        <p>days</p>
+                    </li>
+                    <li>
+                        <span class="hours">00</span>
+                        <p>hours </p>
+                    </li>
+                    <li>
+                        <span class="minutes">00</span>
+                        <p>minutes</p>
+                    </li>
+                    <li>
+                        <span class="seconds">00</span>
+                        <p>seconds</p>
+                    </li>               
+                </div>
+            </div>
+            <div class="Subscribe-email">
+                <input class="subscribeEmail" type="email" name="subscribeEmail">
+                <button type="submit" class="Subscribe-btn">Subscribe Now</button>
+            </div>
+        </div>
+        <div class="mouse-icon hidden-sm hidden-xs">
+            <div class="wheel"></div>
         </div>
     </div>
     <main class="container">
         <div class="row">
             <div class="Left">
-
+                Left
             </div>
             <div class="right">
-
+                Right
             </div>
-
         </div> 
-        Main content
     </main>
     <footer class="container bg-blue">
         <div class="row">
             <div class="socials">
-
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
             </div>
             <div class="texts">
-
+                Logo + texts
             </div>
         </div>
-        Footer
     </footer>
 </body>
 </html>
