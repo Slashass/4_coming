@@ -42,7 +42,9 @@
 .socials {
     display: inline-block;
     text-align: center;
-    width: 100%;
+    padding: 10px;
+    margin: 30px;
+    width: 80%;
     border-bottom: 1px solid #ffffff;
 }
 .texts {
@@ -70,6 +72,15 @@ footer {
         text-align: center;
         width: 50%;
     }
+        .copyRights {
+            font-weight: 500;
+        }
+        span {
+            font-weight: bold;
+        }
+        span:hover {
+            cursor: pointer;
+        }
     .footerLogo {
         text-align: center;
         padding: 20px;
