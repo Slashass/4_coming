@@ -1,0 +1,9 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+}
+.countdown {
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+}

@@ -1,19 +1,15 @@
 .mouse-icon {
-    position: absolute;
-    left: 50%;
-    bottom: 40px;
-    border: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
     border-radius: 16px;
     height: 40px;
     width: 24px;
-    margin-left: -15px;
-    display: block;
-    z-index: 10;
 }
 .mouse-icon .wheel {
     position: relative;
     border-radius: 10px;
-    background: #fff;
+    background: black;
     width: 2px;
     height: 6px;
     top: 4px;
