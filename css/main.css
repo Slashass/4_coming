@@ -10,7 +10,6 @@
         width: 600px;
         height: 44vh;
         margin-left: calc((100% - 600px) / 2);
-        background-color: aqua;
         text-align: center;
     }
     .intro-title {
@@ -24,29 +23,25 @@
 .row {
     display: inline-block;
     width: 1000px;
+    height: 44vh;
     margin-left: calc((100% - 1000px) / 2);
     background-color: yellow;
 }
     .left {
         display: inline-block;
         width: 50%;
+        height: 44vh;
         float: left;
         background-color: aqua;
     }
     .right {
         display: inline-block;
         width: 40%;
+        height: 44vh;
         float: right;
         background-color: red;
     }
-.socials {
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-    margin: 30px;
-    width: 80%;
-    border-bottom: 1px solid #ffffff;
-}
+
 .texts {
     display: inline-block;
     width: 600px;
@@ -61,6 +56,9 @@
         background-position: bottom center;
         background-attachment: fixed;   
     }
+.column-p {
+    color: grey;
+}
 footer {
     display: inline-block;
     text-align: center;

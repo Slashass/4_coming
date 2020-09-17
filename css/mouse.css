@@ -6,7 +6,8 @@
     height: 40px;
     width: 24px;
     text-align: center;
-    margin-top: 20px;
+    margin: 50px;
+    
 }
 .mouse-icon .wheel {
     display: inline-block;

@@ -1,0 +1,23 @@
+button {
+    color: #ffffff;
+    display: inline-block;
+    border: 1px solid #EA1E63;
+    background-color: #EA1E63;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 10px;
+}
+button:hover {
+    cursor: pointer;
+}
+.subscribe-btn {
+    display: inline-block;
+    text-align: center;
+}
+.message-btn {
+    position: relative;
+    float: right;
+    margin-top: 250px;
+}
