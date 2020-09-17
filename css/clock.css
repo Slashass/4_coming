@@ -2,22 +2,29 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    color: #ffffff;
 
 }
 .countdown {
     display: inline-block;
     width: 100%;
     padding: 20px;
+    margin-bottom: 0;
+    float: left;
 }
     .days {
-        display: inline;
+        display: inline-block;
+        font-size: 20px;
     }
     .hours {
-        display: inline;
+        display: inline-block;
+        font-size: 20px;
     }
     .minutes {
-        display: inline;
+        display: inline-block;
+        font-size: 20px;
     }
     .seconds{
-        display: inline;
+        display: inline-block;
+        font-size: 20px;
     }
