@@ -54,10 +54,11 @@
 .column-p {
     color: grey;
 }
-footer {
+.footerRow {
     display: inline-block;
     text-align: center;
     width: 100%;
+    position: relative;
 }
     .footerText {
         display: inline-block;
@@ -84,33 +85,75 @@ footer {
     .about {
         display: inline-block;
     }
+    .back-to-top {
+        position: absolute;
+        top: -55px;
+        right: 130px;
+    }
 /* RWB media */ 
 
 @media (max-width: 1100px) {
     .row {
-        display: inline-block;
         width: 800px;
         margin-left: calc((100% - 800px) / 2);
     }
 }
+
 @media (max-width: 900px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-        }
     .row {
-        display: inline-block;
         width: 600px;
         margin-left: calc((100% - 600px) / 2);
     }
-    .left {
-        display: inline-block;
-        width: 100%;
-        margin-bottom: 60px;
+        .left-column {
+            width: 100%;
+            margin-bottom: 60px;
         }
-    .right {
-        display: inline-block;
-        width: 100%;
-        float: left;
+        .right-column {
+            width: 100%;
+            float: left;
         }
+}
+
+@media (max-width: 700px) {
+    .hero-row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+    .row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+    .footer-texts {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+        .copyright > .texts {
+            width: 100%;
+        }
+        .copyright > .texts.borders {
+            margin: 0;
+        }
+            .copyright > .texts.borders::before,
+            .copyright > .texts.borders::after {
+                display: none;
+            }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-row {
+        width: 100%;
+        margin-left: 0;
+    }
+    .row {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-texts {
+        width: 100%;
+        margin-left: 0;
+    }
 }

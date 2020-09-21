@@ -22,10 +22,21 @@ button:hover {
     float: right;
     bottom: -100px;
 }
-        .back-to-top {
-            padding: 4px;
-            color: #fff;
-            background-color: red;
-            position: relative;
-            top: 10px;
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        line-height: 20px;
+        font-size: 18px;
+        background-color: #EA1E63;
+        color: #fff;
+        text-decoration: none;
+    }
+        .btn.round {
+            border-radius: 30px;
+        }
+        .btn.fa {
+            padding: 15px;
+            width: 50px;
+            text-align: center;
+            font-size: 28px;
         }
