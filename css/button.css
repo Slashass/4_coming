@@ -18,7 +18,14 @@ button:hover {
 }
 .message-btn {
     display: inline-block;
-    float: right;
     position: relative;
-
+    float: right;
+    bottom: -100px;
 }
+        .back-to-top {
+            padding: 4px;
+            color: #fff;
+            background-color: red;
+            position: relative;
+            top: 10px;
+        }
