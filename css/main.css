@@ -31,13 +31,11 @@
         display: inline-block;
         width: 50%;
         float: left;
-        background-color: aqua;
     }
     .right {
         display: inline-block;
         width: 40%;
         float: right;
-        background-color: red;
     }
 
 .texts {

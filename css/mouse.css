@@ -1,23 +1,30 @@
 .mouse-icon {
     display: inline-block;
-    position: relative;
-    border: 3px solid black;
+    border: 3px solid #ffffff;
     border-radius: 16px;
     height: 40px;
     width: 24px;
-    text-align: center;
-    margin: 50px;
-    
+    padding-top: 5px;
+    margin-top: 70px;
 }
-.mouse-icon .wheel {
+.wheel {
     display: inline-block;
-    position: relative;
     border-radius: 10px;
-    background: black;
+    background: #ffffff;
     width: 2px;
     height: 6px;
-    top: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    animation-name: mouseAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}   
+@keyframes mouseAnimation {
+    0% {
+        margin-top: 0;
+        background: #ffffff;
+    }
+    100% {
+        margin-top: 20px;
+        background: #fff0;
+    }
 }

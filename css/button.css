@@ -14,9 +14,11 @@ button:hover {
 }
 .subscribe-btn {
     display: inline-block;
-    text-align: center;
+    margin-left: -50px;
 }
 .message-btn {
-    position: relative;
+    display: inline-block;
     float: right;
+    position: relative;
+
 }
