@@ -21,8 +21,23 @@
     display: inline-block;
     height: 100%;
     width: 90%;
-    background-color: blue;
     border-radius: 20px;
     animation-name: loadingBar;
     animation-duration: 1s;
+}
+.progressBar > .bottom > .progress > .bar {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #36f;
+    animation-name: loading;
+    animation-duration: 2s;
+}
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
